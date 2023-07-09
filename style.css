@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.continer {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.left-decript {
+    width: 30%;
+    background-color: rgb(153, 216, 255);
+}
+
+.wrapper {
+    padding: 1rem 2rem;
+}
+
+.accent,
+.name {
+    color: rgb(164, 105, 28);
+}
+
+.name {
+    font-size: 1.3rem;
+}
+
+.right-decript {
+    width: 70%;
+}
+
+.diplome,
+.expreince,
+.personal-initiative {
+    border-left: .2rem solid #111;
+    padding-left: 1rem;
+    margin-left: .3rem;
+    position: relative;
+}
+
+div {
+    line-height: 1.4rem;
+}
+
+ul {
+    margin-left: 1rem;
+}
+
+h4 {
+    margin: 1rem 0;
+}
+
+h5 {
+    margin: .2rem 0;
+    color: #111;
+    font-weight: 800;
+}
+
+.dots {
+    position: absolute;
+    background-color: #111;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    left: -.7rem;
+}
+
+.second {
+    top: 33.33%;
+}
+
+.third {
+    top: 66.66%;
+}
+
+.fourth {
+    top: 99%;
+}
+
+.expreince .second {
+    top: 26%;
+}
+
+.expreince .third {
+    top: 48%;
+}
+
+.expreince .fourth {
+    top: 74%;
+}
+
+.range {
+    position: relative;
+    width: 75%;
+    height: 8px;
+    border-radius: 30px;
+    background-color: rgb(202, 236, 243);
+}
+
+.fill {
+    position: absolute;
+    inset: 0 0;
+    width: 85%;
+    background-color: rgb(164, 105, 28);
+    border-radius: 30px;
+}
+
+.left-decript .wrapper {
+    padding-left: 1.5rem;
+}
+
+.contacts div {
+    display: flex;
+    align-items: flex-start;
+    gap: .5rem;
+    /* flex-wrap: wrap; */
+}
+
+.left-decript .fill {
+    background-color: #091b1d;
+}
+
+.left-decript h5,
+.left-decript b,
+.left-decript a {
+    color: #091b1d;
+}
+
+.left-decript p {
+    color: #234447;
+}
+
+.left-decript h4 {
+    color: rgb(60, 116, 135);
+}
+
+@media (max-width:780px) {
+    .continer {
+        flex-direction: column;
+    }
+
+    .left-decript,
+    .right-decript {
+        width: 100%;
+    }
+
+    .range {
+        width: 90%;
+    }
+
+}
